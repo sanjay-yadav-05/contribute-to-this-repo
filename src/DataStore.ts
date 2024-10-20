@@ -1,6 +1,40 @@
 import { Card } from "./types";
 export let data: Card[] = [
   {
+    name: "Sanjay Yadav",
+    description:
+      "Hi, I am Sanjay, Web Developer with keen Intrest in Data Analytics",
+    resources: [
+      {
+        name: "AlgoMap.io : DSA RoadMap",
+        url: "https://algomap.io/",
+      },
+      {
+        name: "TLE Eliminators : CP-Sheet",
+        url: "https://www.tle-eliminators.com/cp-sheet",
+      },
+      {
+        name: "Alteryx : Data Analytics Toola and It's Courses",
+        url: "https://community.alteryx.com/t5/Learning-Paths/tkb-p/learning-path",
+      },
+    ],
+    socials: [
+      {
+        name: "github",
+        url: "https://github.com/sanjay-yadav-05",
+      },
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/sanjay-yadav-2813852ab/",
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/venom_05_8483/",
+      },
+    ],
+  },
+
+  {
     name: "Gaurav",
     description:
       "Hi I am Gaurav . Full Stack Developer with Interest in Competitive Programming and System Design.",
@@ -168,68 +202,70 @@ export let data: Card[] = [
     ],
   },
   {
-    "name": "Shaun Rodrigues",
-    "description": "Hey I'm Shaun, a Full Stack Developer with an interest in Game Design and Data Science.",
-    "resources": [
+    name: "Shaun Rodrigues",
+    description:
+      "Hey I'm Shaun, a Full Stack Developer with an interest in Game Design and Data Science.",
+    resources: [
       {
-        "name": "Game Development",
-        "url": "https://www.youtube.com/@Brackeys"
+        name: "Game Development",
+        url: "https://www.youtube.com/@Brackeys",
       },
       {
-        "name": "Something used very often",
-        "url": "https://www.ilovepdf.com/"
+        name: "Something used very often",
+        url: "https://www.ilovepdf.com/",
       },
       {
-        "name": "Intro to Python Web Development",
-        "url": "https://www.youtube.com/watch?v=yBDHkveJUf4"
-      }
+        name: "Intro to Python Web Development",
+        url: "https://www.youtube.com/watch?v=yBDHkveJUf4",
+      },
     ],
-    "socials": [
+    socials: [
       {
-        "name": "github",
-        "url": "https://github.com/TheShaunRodrigues"
+        name: "github",
+        url: "https://github.com/TheShaunRodrigues",
       },
       {
-        "name": "linkedIn",
-        "url": "https://www.linkedin.com/in/shaun-rodrigues-b4b7642b5/"
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/shaun-rodrigues-b4b7642b5/",
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/shaunrodrigues7/"
-      }
-    ]
+        name: "instagram",
+        url: "https://www.instagram.com/shaunrodrigues7/",
+      },
+    ],
   },
   {
-    "name": "Vinay Pawar",
-    "description": "Average neovim and arch user",
-    "resources": [
+    name: "Vinay Pawar",
+    description: "Average neovim and arch user",
+    resources: [
       {
-        "name": "Git Branching Game",
-        "url": "https://learngitbranching.js.org/"
+        name: "Git Branching Game",
+        url: "https://learngitbranching.js.org/",
       },
       {
-        "name": "Node basics",
-        "url": "https://www.youtube.com/watch?v=Oe421EPjeBE"
-      }
+        name: "Node basics",
+        url: "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      },
     ],
-    "socials": [
+    socials: [
       {
-        "name": "github",
-        "url": "https://github.com/Vinay4912"
+        name: "github",
+        url: "https://github.com/Vinay4912",
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/vinay-pawar-a5613327a/"
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/vinay-pawar-a5613327a/",
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/v_i_nay._.20/"
-      }
-    ]
+        name: "instagram",
+        url: "https://www.instagram.com/v_i_nay._.20/",
+      },
+    ],
   },
   {
     name: "Om Jannu",
-    description: "I'm a software developer with a knack for turning bugs into chuckles. I code with a side of humor, making your projects both functional and fun.",
+    description:
+      "I'm a software developer with a knack for turning bugs into chuckles. I code with a side of humor, making your projects both functional and fun.",
     resources: [
       {
         name: "Dev.to",
@@ -254,49 +290,50 @@ export let data: Card[] = [
       {
         name: "Vercel",
         url: "https://vercel.com/home/",
-      }
+      },
     ],
     socials: [
       {
         name: "github",
-        url: "https://github.com/Vinay4912"
+        url: "https://github.com/Vinay4912",
       },
       {
         name: "linkedin",
-        url: "https://www.linkedin.com/in/vinay-pawar-a5613327a/"
+        url: "https://www.linkedin.com/in/vinay-pawar-a5613327a/",
       },
       {
         name: "instagram",
-        url: "https://www.instagram.com/v_i_nay._.20/"
-      }
-    ]
+        url: "https://www.instagram.com/v_i_nay._.20/",
+      },
+    ],
   },
   {
-    "name": "Aarol D'Souza",
-    "description": "Avid Competitive Coder, Math Enthusiast and Aspiring Software Developer",
-    "resources": [
+    name: "Aarol D'Souza",
+    description:
+      "Avid Competitive Coder, Math Enthusiast and Aspiring Software Developer",
+    resources: [
       {
-        "name": "Advent of Code 23",
-        "url": "https://github.com/AarDG10/Advent-of-Code"
+        name: "Advent of Code 23",
+        url: "https://github.com/AarDG10/Advent-of-Code",
       },
       {
-        "name": "Codeforces Acc.",
-        "url": "https://codeforces.com/profile/aarol.dsouza"
+        name: "Codeforces Acc.",
+        url: "https://codeforces.com/profile/aarol.dsouza",
       },
       {
-        "name": "Codechef Acc.",
-        "url": "https://www.codechef.com/users/getes07"
-      }
+        name: "Codechef Acc.",
+        url: "https://www.codechef.com/users/getes07",
+      },
     ],
-    "socials": [
+    socials: [
       {
-        "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/aarol-d-souza-a25893259/"
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/aarol-d-souza-a25893259/",
       },
       {
-        "name": "Github",
-        "url": "https://github.com/AarDG10"
-      }
-    ]
+        name: "Github",
+        url: "https://github.com/AarDG10",
+      },
+    ],
   },
 ];
